@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20sp"
+            android:fadingEdge="vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/salutation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="25sp"
+                android:layout_marginEnd="25sp"
+                android:layout_marginRight="25sp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Détails de nouveau Inscrit"
+                android:textColor="#3F51B5"
+                android:textSize="36sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/nomIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Nom"
+                android:textColor="#515050"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/prenIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Prenom"
+                android:textColor="#515050"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/emailIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Email"
+                android:textColor="#FF515050"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/dateIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Date de naissance"
+                android:textColor="#FF515050"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/adrIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Adresse"
+                android:textColor="#FF515050"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/telIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Telephone"
+                android:textColor="#FF515050"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/etabIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Etablissement"
+                android:textColor="#FF515050"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/domIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Domaine"
+                android:textColor="#FF515050"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="12sp"
+            android:orientation="horizontal"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp">
+
+            <TextView
+                android:id="@+id/compIns"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Compétence"
+                android:textColor="#FF515050"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

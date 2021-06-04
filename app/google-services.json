@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "590286751805",
+    "project_id": "epiandroid-e006a",
+    "storage_bucket": "epiandroid-e006a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590286751805:android:fd7ca42f95c98195e70254",
+        "android_client_info": {
+          "package_name": "com.example.hope"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590286751805-o0c2dl38un2c92jiqu9iqmt7lhct3k91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHtG8bTlwN5CCxJQ-PsF9RhpwB-dZYAsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590286751805-o0c2dl38un2c92jiqu9iqmt7lhct3k91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    package="com.example.myapplication">
+=======
+    package="com.example.hope">
+>>>>>>> 566fa8e (Second commit)
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+<<<<<<< HEAD
+        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+=======
+        <activity android:name="com.example.hope.ThirdActivity"></activity>
+        <activity android:name="com.example.hope.SecondActivity" />
+        <activity android:name="com.example.hope.MainActivity">
+>>>>>>> 566fa8e (Second commit)
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

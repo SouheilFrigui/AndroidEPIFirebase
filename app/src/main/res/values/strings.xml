@@ -1,0 +1,15 @@
+<resources>
+<<<<<<< HEAD
+    <string name="app_name">My Application</string>
+=======
+    <string name="app_name">Internship</string>
+>>>>>>> 566fa8e (Second commit)
+    <string name="app_title">Internship Portal</string>
+    <string name="name_label">Nom</string>
+    <string name="prenom_label">Prenom</string>
+    <string-array name="domaines">
+        <item>Informatique</item>
+        <item>Mecanique</item>
+        <item>Artistique</item>
+    </string-array>
+</resources>
